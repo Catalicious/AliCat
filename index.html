@@ -193,7 +193,7 @@
 				<h3>Send A Note To Nurse AliCat</h3>
 
 				<?php 
-					if(isset($_POST['submit'])){
+					if(isset($_POST['sendIt'])){
     					$to = "kiritigowda@gmail.com";
     					$from = $_POST['email'];
     					$name = $_POST['name'];
@@ -227,10 +227,11 @@
 						</div>
 					</div>
 					<ul class="actions">
-						<li><input type="submit" name="submit" value="Submit" class="primary" /></li>
+						<li><input type="submit" name="sendIt" value="Submit" class="primary" /></li>
 						<li><input type="reset" value="Reset" /></li>
 					</ul>
 				</form>
+
 				<ul class="icons">
 					<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
 					<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
