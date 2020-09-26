@@ -192,7 +192,9 @@
 
 				<h3>Send A Note To Nurse AliCat</h3>
 
-				<?php 
+				<!--
+					PHP Message send - Not turned on
+					<?php 
 					if(isset($_POST['sendIt'])){
     					$to = "kiritigowda@gmail.com";
     					$from = $_POST['email'];
@@ -208,10 +210,11 @@
     					mail($from,$subject2,$message2,$headers2);
     					echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
     				}
-				?>
+					?>
+				-->
 
-				<form method="post">
-					<!--<form method="post" action="mailto:kiritigowda@gmail.com?subject=NurseAliCat-Contact&body=message">-->
+				<!--<form method="post">-->
+				<form method="post" action="mailto:alexandriacorinne@gmail.com?subject=NurseAliCat-Note&body=message">
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
